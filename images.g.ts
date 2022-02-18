@@ -3,6 +3,25 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
+            case "image2":
+            case "myImage0":return img`
+. . . . . . . . . . . . . . . . 
+. . . 4 . . . . . . . 4 . . . . 
+. . . . 4 . . d . . 4 . . . . . 
+. . . . 2 . d d d . 2 . . . . . 
+. . . . 2 2 2 d 2 2 2 . . . . . 
+. . . . . d 4 f 4 d . . . . . . 
+d . . . d f 5 f 5 f d . . . d . 
+d d . d d f 5 f 5 f d d . d d . 
+d d d d f 2 f f f 2 f d d d d . 
+. d d f f f 2 2 2 f f f d d . . 
+. . d d d f f f f f d d d . . . 
+. . . . . d f f f d d . . . . . 
+. . . . . . d f f f d d . . . . 
+. . . . . . . d f f f d . . . . 
+. . . . . . . . d d d d d . . . 
+. . . . . . . . . . . . d . . . 
+`;
             case "image1":
             case "myImage":return img`
 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999966666699969999999999999999999999999999999999999999999999999999
@@ -11,17 +30,17 @@ namespace myImages {
 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999996999999999999969999999999999999999999999966999
 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999996999999999999999999999996666669
 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999996999969999999999999999999999996669
-9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999996999
-9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999996999
-9999999999999999999999999999999999999999dd9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
-9999999999999999999999999999999999999999dcb999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999699999
-999999999999999999999999999999999999999ddcb999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999669999
-999999999999999999999999999999999999999dbcbb99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999969999999999996999699996
-999999999999999999999999666999999999999dcccc99999999999699999999999999999999999999999999969999999999999999999999999999999999999999999999999999999999999999996999
-99999999999999999999999996699999999999dbccccb9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999699999
-99999999999999999999999996699699999999dbbcc4b9999999699999999999999999999999999999999999999999999999999999999999999999969999999999999999969999999999999969999966
-9999999999999999966999996699999999999ddcbcc44b999996999999999999999996999999999999999999999999999999999999999999999999999999699999999999999999999999699999999969
-9999999999999999969999999999999999999dbcc4ccb4499999999999999999999999999699969999999999999999999999999999999999999999999999999999999999999999999669699969999966
+9999999999999999999999999999999999999999999999994999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999996999
+9999999999999999999999999999999999999999999999944b99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999996999
+9999999999999999999999999999999999999999dd99944bcb99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999dcb944bbbb99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999699999
+999999999999999999999999999999999999999ddcb99444bb99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999669999
+999999999999999999999999999999999999999dbcbb99bbbb99999999999999999999999999999999999999999999999999999999999999999999999999999999999999969999999999996999699996
+999999999999999999999999666999999999999dcccc99bbb499999699999999999999999999999999999999969999999999999999999999999999999999999999999999999999999999999999996999
+99999999999999999999999996699999999999dbcccc99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999699999
+99999999999999999999999996699699999999dbbcc499999999699999999999999999999999999999999999999999999999999999999999999999969999999999999999969999999999999969999966
+9999999999999999966999996699999999999ddcbcc499999996999999999999999996999999999999999999999999999999999999999999999999999999699999999999999999999999699999999969
+9999999999999999969999999999999999999dbcc4ccb9499999999999999999999999999699969999999999999999999999999999999999999999999999999999999999999999999669699969999966
 699969999999999999999999999999666699cdccb44cc44699999ddddd9969999dbbb9999999699999999999969999999999999999999999999999999999999999999999999696999999969999999996
 999999999999999999999999999999666696d444b44444cb99999dbbdb99dd999ddbb9999999999999999999999996999999999999999999999999999969669999999999999999699999969999999999
 696999999999999999969999999699999996dc4cc4cccccb99969dcccb9ddcc9ddccb6696999999699999999969999999996999999999999999999999666669999999999999999966669696999699999
@@ -80,70 +99,51 @@ ffffffffffffffffffffccbbbbbccbcbbbccbcccbcbcbcbcbccccccbbbcccbbbbcccccbbbcfcbccc
 fffffffffcfffffffffccccccbbccbccbcccbcccbcbcbcbcbcccbcbbbcccbbbbbcccccccbbcccccbcfffcccffffffffffffffffffffffffffffffffffffffffffffffcdceeeccceeeeeeeecccbbbbbcc
 ddcccffffffffffffcccccbcccbbcbbbbbbbbcccbcbcbcbcbcccbbbbbbbbbbbbbcccccccbbcccccccccccbbcfcffffffffffffffffffffffffffffffffffffffffffcdeeeeeccceeeeeeccbccccbbbbc
 bdddfcbffffffffcccccccbbbcccbbbbbbccbcccbcbcbcbcbcccbbbbbbbbbbbccccccccccbcbbcccccccbbbfcbfcffffffffffffffffffffffffffffffffffffffffcdeeeccccceeeeeececccccbbbbc
-bbbddbbcffffccccccccccbbcbbcccbbbccbbcccbcbcbcbcbcccbbcbbbbbbbbccccccccccccccccccccccccccbbbbcffffffffffffffffffffffffffffffffffffffceeececccceeeeecceccccccbbbc
-bbbbdbbbbcccccccbccbcccccbbbbbbbbcbcccccbcbcbcbcbcccbbcbbbbbbccccccccccccccccccccccccccccccccccffffffffffffffffffffffffffffffffffffffceccecccceeeecceecccbbccccc
-bbbbccccccccccbbbccccccccccccccccccccbbbbbbbbbbbbcccbbcbbbcccccccccbccccccccccccccccccccccceececcbccccfffffffffffffffffffffffffffccffeeceeccccceeecceccccbbbccbc
-bbbbbbbbccccccbbcccccbcccccccccccccbbcccccccccccbccccbbcbbccccccccccccccbcbccccccccccccceeeeeeecccceeeeefccccccffffffffffffffffcfcccceeeeeeeccceecceeccbbbbbbccc
-bbbccccccecccccccccbbbbbcccccccccccbbccccccccccccccccccccccccccccccccccccbcccccccccccccbcceeeeeeecccceceeeeeeecccccffffffffcfcccfccccccecccccccecceeeecbbbbbcccb
-bbcccccceeeeecccccbbccbbbcccccccbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccccccceecccccecceeeeeeedeeecfcccffceeeeeecccccceeccccceeeeeeeccbbbbcccbb
-cceddddeeeeeeecccccbcccccccbccbcbcccccccccccccccbcccccccccbbcccccccccbccccccccccccccccccccbbbcccccceeecccccccedeeeeccccccceeeeeeeeeccceeeeeeeeeeeeeeccbbbbbbbbbb
-ddeeeecceeeeeeeeeeccceecccccccccbcccccccccccccccbcccccccccbcccccccccccccccccccccccccccccccccccccceeeeeeeccccceeecccccccecccceeeeeeccccceeeeeeeeeeeeeecccbbbbbbbb
-ceeeeeeeeeeeeeeeeeeccceeeeccccccccccccccccccccccccccccccccccccccccccccccccccccccbcccbcccccccccccccceeeeeeccccccccceeeeeeeecceeeeeecccccccccceeeeeeeeeecccccbbbbb
-ceeecccccccccccceeeeececcccceeccccccccccccbbbbbccccccccccccccccccccccccccccccbbcccbcccccccccccccccceeeeeccccceeeeeeeeeeeeeeecccceeeccccccccccceeeeeeecccccccbbbb
-eeeecccccccceeeeeeeeeeecceeeeeeeeccccccccbbbcccccbcccccccccccccbbccccccccccccccccccccccccccbccccccceeeeeeeeeeeeeeeeeeeeeeeccccccceeeeeeeeeccccceeeeeccccccccbbcc
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccccccccccccccccccbbbbbbbccccccccccccbbcccccccccccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeecccccceeeeeeeeeeeeeeeeceeeeecccbcc
-eeeeeeccccccceeeeeeeeeeecccccccccccccccccccccccccccccccccccccccccccccccbccccccccceecccbcccccccccccbeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccccceeeeeeeeeeeeccceeccccccec
-eeecceeecccccccccceeeeeeecccccccccccccccccccccccccccccccccccccccccccccccccccccccceeecccccbccccbbbbbeeeeeeebbeeeeeeeeeeeeeeccccccccbcccccceeeeeeeeeeecceeccceeeec
-eeecdddddeeeecccccccccccccbbbbbccccbbcbccccccccccccbcccccccccccccccccccccbceeeeeeeccccccccccccccccceeeeeeeeeeeeeeeeeeeeeccccccccccccccccccceeeeeeeeeeeeeeeeeeeee
-eeedceeeeeeeeeeeeeeeeccccbbccccccccccccccccccccccccccccccbbbbbbcccbccccccccccccceccccccccccccccccceeeeeeeeeeeeeeeeeccccccceccccccccceecccccccceeeeeeeeeeeeeeeeee
-edeeeeeeeeeeeeeeeeeeeeeccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccceeeeeeeeeeeeeecccccccceeeeeecccccceeeeeeecccceeeeeeeeeeeeeeeee
-cddecccceeeeeeeeeeeeeeccccccccccccceeeeeccccccccccbccccccccccccccccccccccccccccccccccccccccccccccccccceeeeeeeeccccccbbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-cdccceccceeeeeeeeeeeeeeccccccceeeeeeccccccccccccccceeeeeeeeeccccccccccccccccccccccccccccccbbbbbbccccccccccccccccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-dceeeeeeeeeeeeeeeeeecccccceeeeecccccccccccccccccccccccccccccccccccccbbcccccccccccccccccccccccccccccccccccccccccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-deeeeeeeeeeecccccccccccccceeeecccccccbbccccccccccbcccccccccccccccccccccccccccccccccccccccccccccceeeeeeeeeeeeeeeeeeeeeeecccccceeeeeeecccccceeeeeeeeeeeeeeeeeeeeee
-eeeeeeeccceeceeeeeeeecccccceecccceecccccccccccccccccccccccccccccccccceeccccceccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccccccecccccccccccccccccccccccccccc
-eeeeeeecceeeeeeeeeeeeeeeeeeeeccceeecccceeeeeeecccccccccccceeeeeeeeeeeeecccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccecccccccccceeeccccccccccccccc
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccccccccccccccccccccceeecccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccceeeecceeeeeeeeeeeee
-eeeeeeeeceeeeeeeeeeeeeeeeeeeeeeeeeecccccccccccccccccccccccccccccccccccceeeeecccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeceeeeeeeecccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccc
-cccccccccccceeeeeeeeeeeeeeeedddeeeeeeeeeeeeeeeeeeecccccccceeeeeeeceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccc
-cccccccccccccccccccccedddddcccccccccceeeeeeeeeccccccccbbbccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccbccc
-cccccccccbbbbbccccccccccccccccccccceeeeeeeccccccceeccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecceccccc
-ccccccccccccbbcccccccccccceeeeeeeeeeeeecccccceeeeecccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccc
-bccccccccccccccccccccccceeeeeeeeeeecccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccccbbbccccccceeeeeccceeeeeeeeeeeeeeeeeeeeeeecccccccccc
-bcccccccccccccccceeeeeeeeeeeeeeeeeccccbbdeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccccccccccccccccccceeeeeeccccccceecccccccccccccbbbbb
-ccccccccccceeeeeeeeeeeeeeeeeeeeeeeeccbbeeeeeeeeeee3eeeeeeeeeeeee3eebbeebbceeeeeeeeee3eeeeeeeeeeeeeeeeecccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbb
-bddddceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3eeeeeeeeeeeeeeeeeeeeeeeeeee33eeeeeeeeeee3eeeeeeeeeeeeeecbceeeccccbcccccccccccccccccccccbbccccccccccccccccbbbbbbb
-ddbbddeeeeeeeeeeeebeeebeeeee3eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebeeee3ee3eb3bbeeeccccccbbccccccccccccbbbbbbbbbbbbbbcccccbbbbbbb
-bbeeeebeeeeeeeeeeee33eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3eeebbbebbeeebbbbbbcbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bebe3eeeeebeeeeeeeeeeeeeeeeeeebeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebebeeeebebbddddbbbbbbbbbbbbbbbbbccbbb
-eeee3eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee33edbed3eeebbeeeb3ddbbcbbbb
-eeeeebeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3beeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+bbbddbbcf44fccccccccccbbcbbcccbbbccbbcccbcbcbcbcbcccbbcbbbbbbbbccccccccccccccccccccccccccbbbbcffffffffffffffffffffffffffffffffffffffceeececccceeeeecceccccccbbbc
+bbbbdbbbbc44ccccbccbcccccbbbbbbbbcbcccccbcbcbcbcbcccbbcbbbbbbccccccccccccccccccccccccccccccccccffffffffffffffffffffffffffffffffffffffceccecccceeeecceecccbbccccc
+bbbbcccccc4c4cbbbccccccccccccccccccccbbbbbbbbbbbbcccbbcbbbcccccccccbccccccccccccccccccccccceececcbccccfffffffffffffffffffffffffffccffeeceeccccceeecceccccbbbccbc
+bbbbbbbbc4cc4cbbcccccbcccccccccccccbbcccccccccccbccccbbcbbccccccccccccccbcbccccccccccccceeeeeeecccceeeeefccccccffffffffffffffffcfcccceeeeeeeccceecceeccbbbbbbccc
+bbbccccc44ccc4cccccbbbbbcccccccccccbbccccccccccccccccccccccccccccccccccccbcccccccccccccbcceeeeeeecccceceeeeeeecccccffffffffcfcccfccccccecccccccecceeeecbbbbbcccb
+bbcccccc4eeee44cccbbccbbbcccccccbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccccccceecccccecceeeeeeedeeecfcccffceeeeeecccccceeccccceeeeeeeccbbbbcccbb
+ccedddde4eeeee44cccbcccccccbccbcbcccccccccccccccbcccccccccbbcccccccccbccccccccccccccccccccbbbcccccceeecccccccedeeeeccccccceeeeeeeeeccceeeeeeeeeeeeeeccbbbbbbbbbb
+ddeeeecc4eeeeee4eeccceecccccccccbcccccccccccccccbcccccccccbcccccccccccccccccccccccccccccccccccccceeeeeeeccccceeecccccccecccceeeeeeccccceeeeeeeeeeeeeecccbbbbbbbb
+ceeeeeee4eeeeeee4eeccceeeeccccccccccccccccccccccccccccccccccccccccccccccccccccccbcccbcccccccccccccceeeeeeccccccccceeeeeeeecceeeeeecccccccccceeeeeeeeeecccccbbbbb
+ceeecccc4ccccccc4eeeececcccceeccccccccccccbbbbbccccccccccccccccccccccccccccccbbcccbcccccccccccccccceeeeeccccceeeeeeeeeeeeeeecccceeeccccccccccceeeeeeecccccccbbbb
+eeeecccc44cceeeee4eeeeecceeeeeeeeccccccccbbbcccccbcccccccccccccbbccccccccccccccccccccccccccbccccccceeeeeeeeeeeeeeeeeeeeeeeccccccceeeeeeeeeccccceeeeeccccccccbbcc
+eeeeeeeee44eeeeeee4eeeeeeeeeeeccccccccccccccccccccccccccbbbbbbbccccccccccccbbcccccccccccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeecccccceeeeeeeeeeeeeeeeceeeeecccbcc
+eeeeeeccccc44eeeee4eeeeecccccccccccccccccccccccccccccccccccccccccccccccbccccccccceecccbcccccccccccbeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccccceeeeeeeeeeeeccceeccccccec
+eeecceeeccccc4cccc4eeeeeecccccccccccccccccccccccccccccccccccccccccccccccccccccccceeecccccbccccbbbbbeeeeeeebbeeeeeeeeeeeeeeccccccccbcccccceeeeeeeeeeecceeccceeeec
+eeecdddddeeeec44cc4cccccccbbbbbccccbbcbccccccccccccbcccccccccccccccccccccbceeeeeeeccccccccccccccccceeeeeeeeeeeeeeeeeeeeeccccccccccccccccccceeeeeeeeeeeeeeeeeeeee
+eeedceeeeeeeeee44ee4eccccbbccccccccccccccccccccccccccccccbbbbbbcccbccccccccccccceccccccccccccccccceeeeeeeeeeeeeeeeeccccccceccccccccceecccccccceeeeeeeeeeeeeeeeee
+edeeeeeeeeeeeeee4ee4eeeccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccceeeeeeeeeeeeeecccccccceeeeeecccccceeeeeeecccceeeeeeeeeeeeeeeee
+cddecccceeeeeeee44e4eeccccccccccccceeeeeccccccccccbccccccccccccccccccccccccccccccccccccccccccccccccccceeeeeeeeccccccbbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+cdccceccceeeeeeee44eeeeccccccceeeeeeccccccccccccccceeeeeeeeeccccccccccccccccccccccccccccccbbbbbbccccccccccccccccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+dceeeeeeeeeeeeeeee44cccccceeeeecccccccccccccccccccccccccccccccccccccbbcccccccccccccccccccccccccccccccccccccccccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+deeeeeeeeeeecccc44c4cccccceeeecccccccbbccccccccccbcccccccccccccccccccccccccccccccccccccccccccccceeeeeeeeeeeeeeeeeeeeeeecccccceeeeeeecccccceeeeeeeeeeeeeeeeeeeeee
+eeeeeeeccc444444eee4ecccccceecccceecccccccccccccccccccccccccccccccccceeccccceccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccccccecccccccccccccccccccccccccccc
+eeeee44444eeeeeeeee4eeeeeeeeeccceeecccceeeeeeecccccccccccceeeeeeeeeeeeecccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccecccccccccceeeccccccccccccccc
+eeeeeeeeeeeeeeeeeee4eeeeeeeeeeeeeeeeeeeeeeeeeeeecccccccccccccccccccccccceeecccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccceeeecceeeeeeeeeeeee
+eeeeeeeeceeeeeeeeee4eeeeeeeeeeeeeeecccccccccccccccccccccccccccccccccccceeeeecccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeee44eeeee4eeeeeeeeeeeeeeeeceeeeeeeecccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeee4eeeeeee4eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeee4444eeeeeeee4eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eee444cceeeeeeee44eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccc
+cc4c4ccccccceeeee4eeeeeeeeeedddeeeeeeeeeeeeeeeeeeecccccccceeeeeeeceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccc
+cc444ccccccccc444ccccedddddcccccccccceeeeeeeeeccccccccbbbccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccbccc
+cccccccccbbbbb44ccccccccccccccccccceeeeeeeccccccceeccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecceccccc
+ccccccccccccbbc444cccccccceeeeeeeeeeeeecccccceeeeecccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccc
+bccccccccccccccccc44cccceeeeeeeeeeecccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccccbbbccccccceeeeeccceeeeeeeeeeeeeeeeeeeeeeecccccccccc
+bccccccccccccccccee4eeeeeeeeeeeeeeccccbbdeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccccccccccccccccccceeeeeeccccccceecccccccccccccbbbbb
+cccccccc44444444444eeeeeeeeeeeeeeeeccbbeeeeeeeeeee3eeeeeeeeeeeee3eebbeebbceeeeeeeeee3eeeeeeeeeeeeeeeeecccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbb
+bddddcee44eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3eeeeeeeeeeeeeeeeeeeeeeeeeee33eeeeeeeeeee3eeeeeeeeeeeeeecbceeeccccbcccccccccccccccccccccbbccccccccccccccccbbbbbbb
+ddbbddee4444444444444444eeee3eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebeeee3ee3eb3bbeeeccccccbbccccccccccccbbbbbbbbbbbbbbcccccbbbbbbb
+bbeeeebe4eeeeeeeeee33ee4eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3eeebbbebbeeebbbbbbcbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bebe3eee4ebeeeeeeeeeeee4eeeeeebeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebebeeeebebbddddbbbbbbbbbbbbbbbbbccbbb
+eeee3eee4eeeeeeeeeeeeee4eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee33edbed3eeebbeeeb3ddbbcbbbb
+eeeeebe444eeeeeeeeeeee44eeeeeeeeeeeeee3eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3beeeeeeeeeeeeeeeeeeeeee
+eeee444eeeeeeeeeeeeee44eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeee44eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 eeeeeeeeeeeeeeeeee3eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-`;
-            case "image2":
-            case "myImage0":return img`
-. . . . . . . . . . . . . . . . 
-. . . 4 . . . . . . . 4 . . . . 
-. . . . 4 . . d . . 4 . . . . . 
-. . . . 2 . d d d . 2 . . . . . 
-. . . . 2 2 2 d 2 2 2 . . . . . 
-. . . . . d 4 f 4 d . . . . . . 
-d . . . d f 5 f 5 f d . . . d . 
-d d . d d f 5 f 5 f d d . d d . 
-d d d d f 2 f f f 2 f d d d d . 
-. d d f f f 2 2 2 f f f d d . . 
-. . d d d f f f f f d d d . . . 
-. . . . . d f f f d d . . . . . 
-. . . . . . d f f f d d . . . . 
-. . . . . . . d f f f d . . . . 
-. . . . . . . . d d d d d . . . 
-. . . . . . . . . . . . d . . . 
 `;
         }
         return null;
@@ -816,76 +816,6 @@ fee4441f44ef............
 . . . f f 2 2 2 2 2 1 f f . . . 
 . . . . . f b b f f f . . . . . 
 `];
-            case "forestBatAttackLeft":
-            case "anim7":return [img`
-. . f f f . . . . . . . . f f f 
-. f f 4 4 . . . . . . f f 4 4 f 
-f f 4 4 . 2 . . 2 . f f 4 4 f . 
-f f f 4 2 2 . 2 2 . f 4 f f f . 
-f f f 2 2 . 2 2 . f f 4 4 f f . 
-f f f 2 f f 2 f f f 4 f 4 4 f . 
-f f 4 2 4 f 2 4 f f 4 f f 4 . . 
-. f 5 4 4 4 5 4 f 4 4 f . . . . 
-. f 5 4 4 4 5 4 4 f f . . . . . 
-f 4 4 4 4 4 4 4 4 4 f f . . . . 
-f 4 1 f f 1 c 4 4 4 4 f . . . . 
-f f 1 f f 1 f 4 4 4 4 f f . . . 
-f f 2 2 2 2 f 4 4 4 4 f f f . . 
-. f 2 2 2 2 4 4 4 4 f f . . . . 
-. . f 4 4 4 4 4 4 c f . . . . . 
-. . . f f f f f f f . . . . . . 
-`, img`
-. . f f f 2 . . 2 . . . . . . . 
-f f f f 2 2 . 2 2 . . . . f f f 
-f f f 2 2 . 2 2 . . . f f 4 4 f 
-f f f 2 f f 2 f f f f 4 4 4 f f 
-f f f 2 4 f 2 4 f f 4 4 f f f . 
-f f 4 4 4 4 4 4 f f 4 4 4 f f . 
-f f 5 4 4 4 5 4 f 4 4 f 4 4 f . 
-f 4 4 4 4 4 4 4 4 4 f f f f f . 
-f 4 1 f f 1 f 4 4 f f f f f . . 
-f f 1 f f 1 f 4 4 4 4 f f . . . 
-f 4 4 f f f f 4 4 4 4 f f . . . 
-4 5 5 4 2 2 f 4 4 4 4 f f f . . 
-. 4 4 2 2 2 2 4 4 4 f f . . . . 
-. . . 2 2 2 4 4 4 c f . . . . . 
-. . . f f f f f f f . . . . . . 
-. . . . . . . . . . . . . . . . 
-`, img`
-. . . . . 2 . . 2 . . . . . . . 
-. . . . 2 2 . 2 2 . . . . . . . 
-. . . 2 2 . 2 2 . . . . . . . . 
-. . f 2 f f 2 f f f . . . . . . 
-. f f 2 4 f 2 4 f f f . . . . . 
-f f 4 4 4 4 4 4 4 4 f f . . . . 
-f f 5 4 4 4 5 4 4 4 f f . . . . 
-f 4 4 4 4 4 4 4 4 f f f f . . . 
-f 4 1 f f 1 c 4 4 f f f f . . . 
-f f 1 f f 1 f 4 f f b b b . . . 
-4 4 f f f f f 4 f f f f f . . . 
-5 5 4 2 2 2 f 4 f 4 4 f f f . . 
-4 4 2 2 2 2 2 4 f f 4 4 f . . . 
-. . f 2 2 2 b f f f f 4 4 f . . 
-. . . f f f f f f f f f f f f . 
-. . . . . . . . . . . . f f f f 
-`, img`
-. f f f . . . . . . . . f f f . 
-f f f . . . . . . . f f 4 4 f . 
-f f f . . . . . . f f 4 4 f . . 
-f f . . . . . . . f 4 f f f . . 
-f f f . . 2 . . 2 f 4 4 f f . . 
-f f f f 2 2 f 2 2 4 f 4 4 f . . 
-f f f 2 2 f 2 2 f 4 f f 4 . . . 
-. f f 2 f f 2 4 f 4 f f . . . . 
-. f 4 2 4 f 2 4 4 f f . . . . . 
-f f 4 4 4 4 4 4 4 4 f f . . . . 
-f 5 5 4 4 4 5 5 4 4 4 f f . . . 
-4 4 4 4 4 4 4 4 4 4 4 f f f . . 
-f 4 4 4 4 4 4 4 4 4 4 f . . . . 
-. f 1 f f f 1 4 4 4 f f . . . . 
-. . f 4 4 4 4 4 4 c f . . . . . 
-. . . f f f f f f f . . . . . . 
-`];
             case "heroSideAttackLeft0":
             case "anim2":return [img`
 ..............ffffff....
@@ -987,6 +917,76 @@ f 4 4 4 4 4 4 4 4 4 4 f . . . .
 ........................
 ........................
 ........................
+`];
+            case "forestBatAttackLeft":
+            case "anim7":return [img`
+. . f f f . . . . . . . . f f f 
+. f f 4 4 . . . . . . f f 4 4 f 
+f f 4 4 . 2 . . 2 . f f 4 4 f . 
+f f f 4 2 2 . 2 2 . f 4 f f f . 
+f f f 2 2 . 2 2 . f f 4 4 f f . 
+f f f 2 f f 2 f f f 4 f 4 4 f . 
+f f 4 2 4 f 2 4 f f 4 f f 4 . . 
+. f 5 4 4 4 5 4 f 4 4 f . . . . 
+. f 5 4 4 4 5 4 4 f f . . . . . 
+f 4 4 4 4 4 4 4 4 4 f f . . . . 
+f 4 1 f f 1 c 4 4 4 4 f . . . . 
+f f 1 f f 1 f 4 4 4 4 4 f . . . 
+f f 2 2 2 2 f 4 4 4 4 4 4 f . . 
+. f 2 2 2 2 4 4 4 4 4 4 f . . . 
+. . f 4 4 4 4 4 4 c f f . . . . 
+. . . f f f f f f f . . . . . . 
+`, img`
+. . f f f 2 . . 2 . . . . . . . 
+f f f f 2 2 . 2 2 . . . . f f f 
+f f f 2 2 . 2 2 . . . f f 4 4 f 
+f f f 2 f f 2 f f f f 4 4 4 f f 
+f f f 2 4 f 2 4 f f 4 4 f f f . 
+f f 4 4 4 4 4 4 f f 4 4 4 f f . 
+f f 5 4 4 4 5 4 f 4 4 f 4 4 f . 
+f 4 4 4 4 4 4 4 4 4 f f f f f . 
+f 4 1 f f 1 f 4 4 f f f f f . . 
+f f 1 f f 1 f 4 4 4 4 f f . . . 
+f 4 4 f f f f 4 4 4 4 f f . . . 
+4 5 5 4 2 2 f 4 4 4 4 f f f . . 
+. 4 4 2 2 2 2 4 4 4 f f . . . . 
+. . . 2 2 2 4 4 4 c f . . . . . 
+. . . f f f f f f f . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, img`
+. . . . . 2 . . 2 . . . . . . . 
+. . . . 2 2 . 2 2 . . . . . . . 
+. . . 2 2 . 2 2 . . . . . . . . 
+. . f 2 f f 2 f f f . . . . . . 
+. f f 2 4 f 2 4 f f f . . . . . 
+f f 4 4 4 4 4 4 4 4 f f . . . . 
+f f 5 4 4 4 5 4 4 4 f f . . . . 
+f 4 4 4 4 4 4 4 4 f f f f . . . 
+f 4 1 f f 1 c 4 4 f f f f . . . 
+f f 1 f f 1 f 4 f f b b b . . . 
+4 4 f f f f f 4 f f f f f . . . 
+5 5 4 2 2 2 f 4 f 4 4 f f f . . 
+4 4 2 2 2 2 2 4 f f 4 4 f . . . 
+. . f 2 2 2 b f f f f 4 4 f . . 
+. . . f f f f f f f f f f f f . 
+. . . . . . . . . . . . f f f f 
+`, img`
+. f f f . . . . . . . . f f f . 
+f f f . . . . . . . f f 4 4 f . 
+f f f . . . . . . f f 4 4 f . . 
+f f . . . . . . . f 4 f f f . . 
+f f f . . 2 . . 2 f 4 4 f f . . 
+f f f f 2 2 f 2 2 4 f 4 4 f . . 
+f f f 2 2 f 2 2 f 4 f f 4 . . . 
+. f f 2 f f 2 4 f 4 f f . . . . 
+. f 4 2 4 f 2 4 4 f f . . . . . 
+f f 4 4 4 4 4 4 4 4 f f . . . . 
+f 5 5 4 4 4 5 5 4 4 4 f f . . . 
+4 4 4 4 4 4 4 4 4 4 4 f f f . . 
+f 4 4 4 4 4 4 4 4 4 4 f . . . . 
+. f 1 f f f 1 4 4 4 f f . . . . 
+. . f 4 4 4 4 4 4 c f . . . . . 
+. . . f f f f f f f . . . . . . 
 `];
         }
         return null;
